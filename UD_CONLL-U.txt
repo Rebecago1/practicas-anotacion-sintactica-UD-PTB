@@ -1,0 +1,161 @@
+#sent_id=1
+#El músico toca la guitarra.
+
+1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	músico	músico	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	toca	tocar	VERB	VERB	Person=3|Tense=Pres|Mood=Ind|VerbForm=Fin	0	root	_	_
+4	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	guitarra	guitarra	NOUN	NOUN	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+#sent_id=2
+#A pesar de las dificultades, el equipo logró ganar el campeonato con un esfuerzo conjunto.
+
+1	A	a	ADP	ADP	AdpType=Prep	5	mark	_	_
+2	pesar	pesar	NOUN	NOUN	_	1	fixed	_	_
+3	de	de	ADP	ADP	_	1	fixed	_	_
+4	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	dificultades	dificultad	NOUN	NOUN	Gender=Fem|Number=Plur	9	obl	_	SpaceAfer=No
+6	,	,	PUNCT	PUNCT	_	7	punct	_	_
+7	el 	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	equipo	equipo	NOUN	NOUN	Gender=Masc|Number=Sing	9	nsubj	_	_
+9	logró	lograr	VERB	VERB	Person=3|Tense=Past|Mood=Ind|VerbForm=Fin	0	root	_	_
+10	ganar 	ganar	VERB	VERB	VerForm=Inf	9	xcomp	_	_
+11	el 	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	campeonato	campeonato	NOUN	NOUN	Gender=Masc|Number=Sing	10	obj	_	_
+13	con	con	ADP	ADP	AdpType=Prep	15	case	_	_
+14	un	un	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	esfuerzo	esfuerzo	NOUN	NOUN	Gender=Masc|Number=Sing	9	obl	_	_
+16	conjunto	conjunto	ADJ	ADJ	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+#sent_id=3
+#Luis está planeando viajar al corazón de la selva del Amazonas el próximo verano para trabajar en un proyecto de biodiversidad.
+
+1	Luis	Luis	PROPN	PROPN	Gender=Masc|Number=Sing	2	nsubj	_	_
+2	está	estar	AUX	AUX	Person=3|Tense=Pres|Mood=Ind|VerbForm=Fin|Number=Sing	3	aux	_	_
+3	planeando	planear	VERB	VERB	VerbForm=Ger	0	root	_	_
+4	viajar	viajar	VERB	VERB	VerbForm=Inf	3	xcomp	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	ADP	AdpType=Prep	7	case	_	_
+6	el 	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	corazón	corazón	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+8	de	de	ADP	ADP	AdpType=Prep	10	case	_	_
+9	la 	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	selva	selva	NOUN	NOUN	Gender=Fem|Number=Sing	7	nmod	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	de	de	ADP	ADP	AdpType=Prep	13	case	_	_
+12	el 	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Amazonas	Amazonas	PROPN	PROPN	Gender=Masc|Number=Sing	10	nmod	_	_
+14	el 	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	próximo	próximo	ADJ	ADJ	Gender=Masc|Number=Sing	16	amod	_	_
+16	verano	verano	NOUN	NOUN	Gender=Masc|Number=Sing	4	nmod	_	_
+17	para 	para	ADP	ADP	AdpType=Prep	18	case	_	_
+18	trabajar	trabajar	VERB	VERB	VerbForm=Inf	4	advcl	_	_
+19	en	en	ADP	ADP	AdpType=Prep	21	case	_	_
+20	un	un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	proyecto	proyecto	NOUN	NOUN	Gender=Masc|Number=Sing	18	obl	_	_
+22	de	de	ADP	ADP	AdpType=Prep	23	case	_	_
+23	biodiversidad	biodiversidad	NOUN	NOUN	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+#sent_id=4
+#Se necesita experiencia previa para este trabajo.
+
+1	Se	Se	PRON	PRON	_	2	expl:impers	_	_
+2	necesita	necesitar	VERB	VERB	Person=3|Tense=Pres|Mood=Ind|VerbForm=Fin|Number=Sing	0	root	_	_
+3	experiencia	experiencia	NOUN	NOUN	Gender=Fem|Number=Sing	2	obj	_	_
+4	previa	previo	ADJ	ADJ	Gender=Fem|Number=Sing	3	amod	_	_
+5	para	para	ADP	ADP	AdpType=Prep	7	case	_	_
+6	este 	este 	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	trabajo	trabajo	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+#sent_id=5A
+#El mensaje fue enviado por error.
+
+1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	mensaje	mensaje	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	fue	ser	AUX	AUX	Person=3|Number=Sing|Tense=Past|Mood=Ind|VerbForm=Fin	4	aux:pass	_	_
+4	enviado	enviar	VERB	VERB	VerForm=Part|Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
+5	por	por	ADP	ADP	AdpType=Prep	6	case	_	_
+6	error	error	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+#sent_id=5B
+#La carta fue escrita por Juan.
+
+1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	carta	carta	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	fue	ser	AUX	AUX	Person=3|Tense=Past|Mood=Ind|VerbForm=Fin|Number=Sing	4	aux:pass	_	_
+4	escrita	escribir	VERB	VERB	VerbForm=Part|Gender=Fem|Number=Sing	0	root	_	_
+5	por	por	ADP	ADP	AdpType=Prep	6	case	_	_
+6	Juan	Juan	PROPN	PROPN	Gender=Masc|Number=Sing	4	obl:agent	_	SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+
+#sent_id=5C
+#La decisión fue criticada por quienes no estaban de acuerdo.
+
+1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	decisión	decisión	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	fue	ser	AUX	AUX	Number=Sing|Person=3|Tense=Past|Mood=Ind|VerbForm=Fin	4	aux:pass	_	_
+4	criticada	criticar	VERB	VERB	VerForm=Part|Gender=Fem|Number=Sing	0	root	_	_
+5	por	por	ADP	ADP	AdpType=Prep	6	case	_	_
+6	quienes	quien	PRON	PRON	Pron Type=Rel|Number=Plur	4	obl:agent	_	_
+7	no 	no	PART	PART	Polarity=Neg	8	advmod	_	_
+8	estaban	estar	VERB	VERB	Person=3|Number=Plur|Tense=Past|Mood=Ind|VerbForm=Fin	6	acl:relcl	_	_
+9	de	de	ADP	APD	AdpType=Prep	10	fixed	_	_
+10	acuerdo	acuerdo	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+#sent_id=5D
+#Se vendieron todas las entradas.
+
+1	Se	se	PRON	PRON	_	2	expl:pass	_	_
+2	vendieron	vender	VERB	VERB	Person=3|Number=Plur|Tense=Past|Mood=Ind|VerbForm=Fin	0	root	_	_
+3	todas	todo	DET	DET	Gender=Fem|Number=Plur|PronType=Tot	5	det	_	_
+4	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	entradas	entrada	NOUN	NOUN	Gender=Fem|Number=Plur	2	nsubj:pass	_	SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+
+#sent_id=7
+#Tómatelo con calma.
+
+1-3	Tómatelo	_	_	_	_	_	_	_	_
+1	Toma	tomar	VERB	VERB	Mood=Imp|VerbForm=Ind|Person=2|Num=Sing	0	root	_	SpaceAfter=No
+2	te	tú	PRON	PRON	PronType=Prs |Clitic=Yes	1	iobj	_	SpaceAfter=No
+3	lo	lo	PRON	PRON	PronType=Prs| Clitic=Yes	1	obj	_	_
+4	con	con	ADP	ADP	AdpType=Prep	5	case	_	_
+5	calma	calma	NOUN	NOUN	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+
+#sent_id=11
+#Llegué tarde; estaban todos allí.
+
+1	Llegué	llegar	VERB	VERB	Person=1|Number=Sing|Tense=Past|Mood=Ind|VerbForm=Fin	0	root	_	_
+2	tarde	tarde	ADV	ADV	_	1	advmod	_	SpaceAfter=No
+3	;	;	PUNCT	PUNCT	_	4	punct	_	_
+4	estaban	estar	VERB	VERB	Person=3|Number=Plur|Tense=Past|Mood=Ind|VerbForm=Fin	1	parataxis	_	_
+5	todos	todo	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Tot	4	nsubj	_	_
+6	allí	allí	ADV	ADV	_	4	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+
+#sent_id=12
+#María, la madre de Juan, vino a la reunión.
+
+1	María	María	PROPN	PROPN	Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	3	punct	_	_
+3	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	
+4	madre	madre	NOUN	NOUN	Gender=Fem|Number=Sing	1	appos	_	_
+5	de	de	ADP	ADP	AdpType=Pre	6	case	_	_
+6	Juan	Juan	PROPN	PROPN	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	8	punct	_	_
+8	vino	venir	VERB	VERB	Person=3|Number=Sing|Tense=Past|Mood=Ind|VerbForm=Fin	0	root	_	_
+9	a	a	ADP	ADP	AdpType=Prep	11	case	_	_
+10	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	reunión	reunión	NOUN	NOUN	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	PUNCT	_	8	punct	_	_
