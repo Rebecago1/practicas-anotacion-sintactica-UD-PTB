@@ -1,8 +1,9 @@
 Este repositorio contiene tres pequeñas prácticas de anotación lingüística sintáctica manual, según los dos modelos formales más usados en PLN:
 
-Archivos: UD_anotacion.pdf y : anotación manual en *Universal Dependencies* (UD), en formato CoNLL-U compatible con corpus como AnCora, con la herramienta Anotatrix.
+**UD_CONLL-U.txt**: anotación manual en *Universal Dependencies* en formato CoNLL-U, compatible con corpus como AnCora.
 
-Incluye fenómenos lingüísticos como voz pasiva, clíticos, multiword tokens, oraciones subordinadas
+**UD_anotacion.pdf**: visualización generada a partir del archivo anterior mediante la herramienta Anotatrix, para validación visual de la estructura sintáctica UD.
 
+**PTB.pdf**: representación manual en notación Penn Treebank (*constituency parsing*), visualizada mediante LingTree.
 
 
